@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "POSTGRES_SERVER_FQDN": "psql-restapi-dev.postgres.database.azure.com",
+    "POSTGRES_USER": "psqladmin@psql-restapi-dev",
+    "POSTGRES_USER_PASSWORD": "Pa$$word123",
+    "POSTGRES_DATABASE": "iso3166"
+  }
+}
