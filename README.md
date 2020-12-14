@@ -17,7 +17,7 @@ Description: "Creating a bare minimum Azure Function REST API to return JSON res
 
 Creating a serverless REST API with Azure Functions is just a matter of a few lines of code. Azure Functions is an outstanding modern serverless computing service that developers use to create scalable solutions without worrying about the infrastructure setup. Node.js is another most popular selections to develop scalable, refined, high-performance REST API to be used by diverse clients. Azure Functions takes care of running the Node.js code.
 
-The code is triggered when Azure Functions receives an HTTP request. The function code handles the request, prepares a SQL query with the given parameters, executes the query against the Synapse data warehouse, converts the results to JSON, and returns it to the caller.
+The code is triggered when Azure Functions receives an HTTP request. The function code handles the request, prepares a SQL query with the given parameters, executes the query against the PostgreSQL server, converts the results to JSON, and returns it to the caller.
 
 ## Motivation
 
@@ -49,7 +49,7 @@ Following softwares and libraries should be installed on the local machine to ru
 
 ## Local Adjustments to Run the App
 
-Adjust the connection details and credentials in `local.settings.json` to point and connect to a desired Synapse instance.
+Adjust the connection details and credentials in `local.settings.json` to point and connect to a desired PostgreSQL instance.
 
 If script execution is disabled on your machine, you might encounter the following error during execution
 
