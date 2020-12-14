@@ -1,11 +1,31 @@
 {
   "name": "postgresrest",
   "version": "1.0.0",
-  "description": "",
+  "description": "Azure Function: Node.js code to read PostgreSQL data with query parameter and return results as JSON",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {},
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DhyanRathore/postgres-azure-function-node-rest.git"
+  },
+  "keywords": [
+    "postgresql",
+    "rest",
+    "api",
+    "json",
+    "pg"
+  ],
+  "author": "Dhyanendra Singh Rathore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DhyanRathore/postgres-azure-function-node-rest/issues"
+  },
+  "homepage": "https://github.com/DhyanRathore/postgres-azure-function-node-rest#readme"
 }
